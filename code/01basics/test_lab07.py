@@ -17,4 +17,5 @@ def test_vwo_valid_login():
     aman = driver.find_element(By.XPATH, "//span[@class='Fw(semi-bold) ng-binding']")
     #print(aman.text)
     assert aman.text == "Aman"
-    time.sleep(5)
+    time.sleep(3)
+    driver.quit()
